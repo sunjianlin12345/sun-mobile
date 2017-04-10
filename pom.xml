@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--
+        groupId:项目或者组织的唯一标志，并且配置时生成路径也是由此生成，
+        如com.sunjianlin12345.project生成的相对路径为：/com/sunjianlin12345/project
+    -->
+    <groupId>com.sunjianlin12345.project</groupId>
+    <artifactId>sun-mobile</artifactId>
+    <!--
+        项目的版本 如果pom的version标签中的值结尾是：-SNAPSHOT，将使用snapshots repository
+        否则使用releases repository 命令是：mvn deploy
+    -->
+    <version>1.0-SNAPSHOT</version>
+    <!--
+        packaging:打包机制，如pom,jar,maven-plugin,ejb,war,ear,rar,par
+    -->
+    <packaging>pom</packaging>
+    <name>${project.artifactId} v${project.version}</name>
+
+
+
+
+</project>
