@@ -1,0 +1,28 @@
+/** 公共页面 */
+body {background: black;margin: 0 auto;}
+.index {margin:0 auto;width: 90%;max-width: 210mm;min-width: 60mm;height: 500mm;background-image: url("../images/index-01.jpg");}
+.index .index-header {z-index:1000;position: fixed;margin-left: 10mm;margin-right: 10mm;width: 90%;max-width: 190mm;min-width: 60mm;height: 50mm;background: #FFFFFF;}
+.index-header .div-left {position: absolute;width: 60mm;height: 100%;background: #F0FFFF ;}
+.index-header .div-left .div-photo {position: relative;top: 10mm;margin:0 auto;width: 25mm;height: 35mm;background: #696969;}
+.index-header .div-right {position: absolute;top: 10mm;padding-left: 60mm;width: 130mm;height: 100%;}
+.p-message {-webkit-margin-before: 0;-webkit-margin-after: 0;float: left;;width: 65mm;height: 8mm;font-family: 黑体;}
+.p-message span {position: relative;padding-left: 12mm;top: 1.5mm;line-height: 6mm}
+.index .main {position: relative;left: 20mm;top: 50mm;width: 170mm;height: 435mm;background: #F8F8FF;opacity:0.8;filter:alpha(opacity=80);}
+.index .bottom {position: relative;left: 20mm;top: 52.5mm;width: 170mm;text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
